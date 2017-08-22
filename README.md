@@ -1,4 +1,7 @@
-<h1>Template literals loader</h1>
+<div align="center">
+    <h1>Template literals loader</h1>
+</div>
+
 The `template-literals-loader` is a module for webpack to use [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) as HTML template from a separate file.
 
 ## Installation
