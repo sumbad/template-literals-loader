@@ -1,6 +1,6 @@
 {
   "name": "template-literals-loader",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "module for webpack",
   "main": "index.js",
   "scripts": {
