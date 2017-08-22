@@ -1,5 +1,5 @@
-# template-literals-loader
-[Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) is a module for webpack
+<h1>Template literals loader</h1>
+The `template-literals-loader` is a module for webpack to use [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) as HTML template from a separate file.
 
 ## Installation
 
@@ -9,9 +9,9 @@
 
 
 
-If you want to use this module with new browsers you can just setting webpack. If you will use it with old ES5 only support browsers you have to include babel loader or some other ES6 loader that supports template strings.
+If you want to use this module with new browsers you can just setting webpack. If you will use it with old ES5 only support browsers you have to include babel loader or some other ES2015 loader that supports template strings.
 
-**webpack.config.js for ES5 support**
+**webpack.config.js**  for ES5 support
 ``` javascript
 ...
 {
@@ -29,7 +29,7 @@ If you want to use this module with new browsers you can just setting webpack. I
 };
 ```
 
-**webpack.config.js for ES2015 and later support**
+**webpack.config.js** for ES2015 and later support
 ``` javascript
 ...
 {
@@ -49,7 +49,7 @@ If you want to use this module with new browsers you can just setting webpack. I
 <h1>Hello, ${name}</h1>
 ```
 
-**main.js with tagged template literals**
+**main.js**  with tagged template literals
 ``` javascript
 let template = require('./template.js.html');
 
@@ -61,7 +61,7 @@ function myTag(chunks, ...interpolations) {
 template({name: 'world'}, myTag);
 ```
 
-**main.js without tagged template literals**
+**main.js**  without tagged template literals
 ``` javascript
 let template = require('./template.js.html');
 
