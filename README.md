@@ -4,6 +4,8 @@
 
 The `template-literals-loader` is a module for webpack to use [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) as HTML template from a separate file.
 
+This plugin adds a wrapper to a template file and returns it as a function.
+
 ## Installation
 
 `npm install template-literals-loader -D`
