@@ -1,6 +1,6 @@
 {
   "name": "template-literals-loader",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "module for webpack",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/sumbad/template-literals-loader#readme",
   "peerDependencies": {
-    "es6-templates": "^1.0.4"
+    "es6-templates": "^0.2.3"
   }
 }
